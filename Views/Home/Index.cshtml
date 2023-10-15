@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Inicio | JP";
+}
+
+<div class="container text-center center-area">
+    <hr />
+    <h1>Juan Palaceto</h1>
+    <h2>Desarrollo de Software</h2>
+    <hr />
+    <div class="buttons-area">
+        @Html.ActionLink("Proyectos", "Projects", "Home", new { @class = "btn btn-default btn-lg" })
+        @Html.ActionLink("Más sobre mí", "About", "Home", new { @class = "btn btn-default btn-lg disabled" })
+        @Html.ActionLink("Contacto", "Contact", "Home", new { @class = "btn btn-default btn-lg" })
+    </div>
+</div>

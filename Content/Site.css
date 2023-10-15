@@ -1,0 +1,41 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* */
+html, body, main-container {
+    height: 100%;
+}
+.center-area {
+    padding-top: 148px;
+}
+.center-area > h2 {
+    color: #a5a2a2;
+}
+.center-area > h3 {
+    font-size: 20px;
+    color: #a5a2a2;
+}
+#carousel-projects {
+    max-width: 900px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
